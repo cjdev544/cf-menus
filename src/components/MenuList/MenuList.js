@@ -36,25 +36,21 @@ const MenuList = () => {
           width={300}
         />
       </AniLink>
-      <AniLink paintDrip hex="#b2b2b2" to="/guaywok" className="menu-list">
-        <h3>GuayWok</h3>
-        <StaticImage
-          src="../../images/logo-guaywok.jpg"
-          alt="logo guaywok"
-          placeholder="tracedSVG"
-          layout="constrained"
-          width={300}
-        />
+      <AniLink
+        paintDrip
+        hex="#b2b2b2"
+        to="/tapas"
+        className="menu-list menu-list-center"
+      >
+        <h3>TAPAS</h3>
       </AniLink>
-      <AniLink paintDrip hex="#b2b2b2" to="/saborcasita" className="menu-list">
-        <h3>Con Sabor a Casita</h3>
-        <StaticImage
-          src="../../images/logo-sabor.jpg"
-          alt="logo con sabor a casita"
-          placeholder="tracedSVG"
-          layout="constrained"
-          width={300}
-        />
+      <AniLink
+        paintDrip
+        hex="#b2b2b2"
+        to="/bebidas"
+        className="menu-list menu-list-center"
+      >
+        <h3>BEBIDAS</h3>
       </AniLink>
     </>
   )
