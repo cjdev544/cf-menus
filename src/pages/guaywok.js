@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import AppLayout from '../components/AppLayout'
+import GoBack from '../components/GoBack'
 
 const Guaywok = () => {
   return (
@@ -39,6 +40,7 @@ const Guaywok = () => {
           width={1000}
         />
       </div>
+      <GoBack />
     </AppLayout>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
-import AppLayout from '../components/AppLayout/AppLayout'
+import AppLayout from '../components/AppLayout'
+import GoBack from '../components/GoBack'
 
 const Sushiguay = () => {
   return (
@@ -25,6 +26,7 @@ const Sushiguay = () => {
           width={1000}
         />
       </div>
+      <GoBack />
     </AppLayout>
   )
 }
