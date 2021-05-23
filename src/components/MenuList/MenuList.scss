@@ -1,0 +1,29 @@
+@import '../../scss/index';
+
+.menu-list {
+  align-items: center;
+  background-color: $background-light;
+  border-radius: 10px;
+  border: 3px solid $border-gray;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: $font-gray;
+  display: flex;
+  font-weight: bold;
+  height: 70px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 1rem;
+  overflow: hidden;
+  padding: 0 1rem;
+  text-decoration: none;
+  width: 100%;
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  img {
+    height: 70px;
+    width: 70px !important;
+  }
+}

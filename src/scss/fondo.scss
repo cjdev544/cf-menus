@@ -1,0 +1,28 @@
+@import './index.scss';
+
+.fondo {
+  background-image: radial-gradient(
+    circle closest-corner,
+    #e15b04 0%,
+    rgb(20, 20, 20) 70%
+  );
+  color: #fff;
+  font-family: noto-serif !important;
+  font-weight: 700;
+  height: 100%;
+  width: 100%;
+
+  .separator {
+    display: flex;
+    justify-content: space-between;
+
+    &-product {
+      background-color: blue;
+      width: 90%;
+    }
+
+    &-cost {
+      background-color: red;
+    }
+  }
+}
