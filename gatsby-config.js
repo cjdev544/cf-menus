@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Central Food`,
     description: `Todos los menùs quue ofrecemos en Central Food`,
-    author: `@gatsbyjs`,
+    author: `Jefferson Campos <CjDev544/>`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,8 +31,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Central Food Menú`,
+        short_name: `Central Food`,
         start_url: `/`,
         background_color: `#666666`,
         theme_color: `#666666`,
