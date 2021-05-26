@@ -39,6 +39,15 @@ const Guaywok = () => {
           layout="constrained"
           width={1000}
         />
+        <StaticImage
+          className="menu-page__image"
+          alt="Ley de Información Alimentaria"
+          src="../images/menu-ley.png"
+          placeholder="tracedSVG"
+          layout="constrained"
+          objectFit="cover"
+          width={1000}
+        />
       </div>
       <GoBack />
     </AppLayout>
