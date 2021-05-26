@@ -32,7 +32,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Central Food Menú`,
-        short_name: `Central Food`,
+        short_name: `Central Food Menù`,
         start_url: `/`,
         background_color: `#666666`,
         theme_color: `#666666`,
