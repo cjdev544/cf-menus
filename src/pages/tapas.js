@@ -26,7 +26,7 @@ const Tapas = () => {
           width={1000}
         />
         <StaticImage
-          className="menu-page__image"
+          className="reglament"
           alt="Ley de Información Alimentaria"
           src="../images/menu-ley.png"
           placeholder="tracedSVG"
@@ -34,6 +34,7 @@ const Tapas = () => {
           objectFit="cover"
           width={1000}
         />
+        <div className="separator"></div>
       </div>
       <GoBack />
     </AppLayout>

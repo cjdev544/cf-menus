@@ -48,6 +48,7 @@ const SaborCasita = () => {
           objectFit="cover"
           width={1000}
         />
+        <div className="separator"></div>
       </div>
       <GoBack />
     </AppLayout>
