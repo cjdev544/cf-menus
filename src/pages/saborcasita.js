@@ -9,7 +9,7 @@ const SaborCasita = () => {
       <div className="menu-page">
         <StaticImage
           className="menu-page__image"
-          src="../images/sabor10.jpg"
+          src="../images/sabor12.jpg"
           alt="Página 2 del menu con sabor a casita"
           placeholder="tracedSVG"
           layout="constrained"
