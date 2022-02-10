@@ -9,8 +9,8 @@ const SaborCasita = () => {
       <div className="menu-page">
         <StaticImage
           className="menu-page__image"
-          src="../images/sabor1.jpg"
-          alt="Página 1 del menu con sabor a casita"
+          src="../images/sabor10.jpg"
+          alt="Página 2 del menu con sabor a casita"
           placeholder="tracedSVG"
           layout="constrained"
           width={1000}
@@ -35,6 +35,14 @@ const SaborCasita = () => {
           className="menu-page__image"
           src="../images/sabor4.jpg"
           alt="Página 4 del menu con sabor a casita"
+          placeholder="tracedSVG"
+          layout="constrained"
+          width={1000}
+        />
+        <StaticImage
+          className="menu-page__image"
+          src="../images/sabor5.jpg"
+          alt="Página 5 del menu con sabor a casita"
           placeholder="tracedSVG"
           layout="constrained"
           width={1000}
