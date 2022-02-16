@@ -39,14 +39,6 @@ const MenuList = () => {
       <AniLink
         paintDrip
         hex="#b2b2b2"
-        to="/tapas"
-        className="menu-list menu-list-center"
-      >
-        <h3>TAPAS</h3>
-      </AniLink>
-      <AniLink
-        paintDrip
-        hex="#b2b2b2"
         to="/bebidas"
         className="menu-list menu-list-center"
       >
