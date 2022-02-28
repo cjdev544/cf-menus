@@ -33,7 +33,7 @@ const SaborCasita = () => {
         />
         <StaticImage
           className="menu-page__image"
-          src="../images/sabor-casita4.jpg"
+          src="../images/sabor-casita04.jpg"
           alt="Página 4 del menu con sabor a casita"
           placeholder="tracedSVG"
           layout="constrained"
