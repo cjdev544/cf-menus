@@ -39,10 +39,10 @@ const MenuList = () => {
       <AniLink
         paintDrip
         hex="#b2b2b2"
-        to="/bebidas"
+        to="/postres-bebidas"
         className="menu-list menu-list-center"
       >
-        <h3>BEBIDAS</h3>
+        <h3>Postres y Bebidas</h3>
       </AniLink>
     </>
   )

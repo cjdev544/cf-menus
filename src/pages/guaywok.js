@@ -9,7 +9,7 @@ const Guaywok = () => {
       <div className="menu-page">
         <StaticImage
           className="menu-page__image"
-          src="../images/guaywok1.jpg"
+          src="../images/guaywok01.jpg"
           alt="Página 1 del menu guaywok"
           placeholder="tracedSVG"
           layout="constrained"
@@ -17,7 +17,7 @@ const Guaywok = () => {
         />
         <StaticImage
           className="menu-page__image"
-          src="../images/guaywok2.jpg"
+          src="../images/guaywok02.jpg"
           alt="Página 2 del menu guaywok"
           placeholder="tracedSVG"
           layout="constrained"
@@ -25,16 +25,8 @@ const Guaywok = () => {
         />
         <StaticImage
           className="menu-page__image"
-          src="../images/guaywok3.jpg"
+          src="../images/guaywok03.jpg"
           alt="Página 3 del menu guaywok"
-          placeholder="tracedSVG"
-          layout="constrained"
-          width={1000}
-        />
-        <StaticImage
-          className="menu-page__image"
-          src="../images/guaywok4.jpg"
-          alt="Página 4 del menu guaywok"
           placeholder="tracedSVG"
           layout="constrained"
           width={1000}

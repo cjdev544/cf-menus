@@ -9,17 +9,8 @@ const Bebidas = () => {
       <div className="menu-page">
         <StaticImage
           className="menu-page__image"
-          src="../images/tapas-bebidas.jpg"
+          src="../images/bebidas10.jpg"
           alt="página 1 del menu de bebidas"
-          placeholder="tracedSVG"
-          layout="constrained"
-          objectFit="cover"
-          width={1000}
-        />
-        <StaticImage
-          className="menu-page__image"
-          alt="página 2 del menu de bebidas"
-          src="../images/bebidas.jpg"
           placeholder="tracedSVG"
           layout="constrained"
           objectFit="cover"
