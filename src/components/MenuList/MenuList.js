@@ -39,6 +39,21 @@ const MenuList = () => {
       <AniLink
         paintDrip
         hex="#b2b2b2"
+        to="/hamburgueseriavzla"
+        className="menu-list"
+      >
+        <h3>Hamburguesería VZLA</h3>
+        <StaticImage
+          src="../../images/logo-hamburgueseria.png"
+          alt="Hamburguesería VZLA"
+          placeholder="tracedSVG"
+          layout="constrained"
+          width={300}
+        />
+      </AniLink>
+      <AniLink
+        paintDrip
+        hex="#b2b2b2"
         to="/postres-bebidas"
         className="menu-list menu-list-center"
       >
