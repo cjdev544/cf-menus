@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-transition-link`,
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {

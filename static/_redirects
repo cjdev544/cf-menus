@@ -1,0 +1,15 @@
+# Redirects from what the browser requests to what we serve
+
+# / https://centralfoodmalaga.com
+
+# /guaywok https://centralfoodmalaga.com
+
+# /hamburgueseriavzla https://centralfoodmalaga.com
+
+# /postres-bebidas https://centralfoodmalaga.com
+
+# /saborcasita https://centralfoodmalaga.com
+
+# /sushiguay https://centralfoodmalaga.com
+
+https://clever-pasteur-b853e2.netlify.app/* https://centralfoodmalaga.com/:splat 301!
