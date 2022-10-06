@@ -9,7 +9,7 @@ const SaborCasita = () => {
       <div className="menu-page">
         <StaticImage
           className="menu-page__image"
-          src="../images/sabor-casita11.jpg"
+          src="../images/sabor-casita21.jpg"
           alt="Página 2 del menu con sabor a casita"
           placeholder="tracedSVG"
           layout="constrained"
@@ -17,7 +17,7 @@ const SaborCasita = () => {
         />
         <StaticImage
           className="menu-page__image"
-          src="../images/sabor-casita2.jpg"
+          src="../images/sabor-casita22.jpg"
           alt="Página 2 del menu con sabor a casita"
           placeholder="tracedSVG"
           layout="constrained"
@@ -25,7 +25,7 @@ const SaborCasita = () => {
         />
         <StaticImage
           className="menu-page__image"
-          src="../images/sabor-casita3.jpg"
+          src="../images/sabor-casita23.jpg"
           alt="Página 3 del menu con sabor a casita"
           placeholder="tracedSVG"
           layout="constrained"
@@ -33,7 +33,7 @@ const SaborCasita = () => {
         />
         <StaticImage
           className="menu-page__image"
-          src="../images/sabor-casita04.jpg"
+          src="../images/sabor-casita24.jpg"
           alt="Página 4 del menu con sabor a casita"
           placeholder="tracedSVG"
           layout="constrained"
@@ -41,7 +41,7 @@ const SaborCasita = () => {
         />
         <StaticImage
           className="menu-page__image"
-          src="../images/sabor-casita5.jpg"
+          src="../images/sabor-casita25.jpg"
           alt="Página 5 del menu con sabor a casita"
           placeholder="tracedSVG"
           layout="constrained"
