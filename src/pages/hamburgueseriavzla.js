@@ -6,7 +6,8 @@ import GoBack from '../components/GoBack'
 const Hamburgueseria = () => {
   return (
     <AppLayout>
-      <div className="menu-page">
+      <h1>Contenido en mantenimiento</h1>
+      {/* <div className="menu-page">
         <StaticImage
           className="menu-page__image"
           src="../images/hamburgueseria01.jpg"
@@ -49,7 +50,7 @@ const Hamburgueseria = () => {
           width={1000}
         />
         <div className="separator"></div>
-      </div>
+      </div> */}
       <GoBack />
     </AppLayout>
   )
