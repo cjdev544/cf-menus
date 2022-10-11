@@ -8,16 +8,6 @@ import './SocialMedia.scss'
 const SocialMedia = () => {
   return (
     <div className="social">
-      <h4>Realiza tus pedidos en</h4>
-      <a
-        className="web"
-        href="https://www.centralfoodmalaga.com"
-        target="_blank"
-        rel="noreferrer"
-        aria-label="centralfoodmalaga"
-      >
-        www.centralfoodmalaga.com
-      </a>
       <h4>Siguenos en nuestras redes</h4>
       <div className="social__group">
         <Button

@@ -1,12 +1,14 @@
 import React from 'react'
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import { StaticImage } from 'gatsby-plugin-image'
 import './MenuList.scss'
 
 const MenuList = () => {
   return (
     <>
-      <AniLink paintDrip hex="#b2b2b2" to="/sushiguay" className="menu-list">
+      <a
+        href="https://www.centralfoodmalaga.com/sushiguay"
+        className="menu-list"
+      >
         <h3>Sushi Guay</h3>
         <StaticImage
           src="../../images/logo-sushi.jpg"
@@ -15,8 +17,8 @@ const MenuList = () => {
           layout="constrained"
           width={300}
         />
-      </AniLink>
-      <AniLink paintDrip hex="#b2b2b2" to="/guaywok" className="menu-list">
+      </a>
+      <a href="https://www.centralfoodmalaga.com/guaywok" className="menu-list">
         <h3>GuayWok</h3>
         <StaticImage
           src="../../images/logo-guaywok.jpg"
@@ -25,8 +27,11 @@ const MenuList = () => {
           layout="constrained"
           width={300}
         />
-      </AniLink>
-      <AniLink paintDrip hex="#b2b2b2" to="/saborcasita" className="menu-list">
+      </a>
+      <a
+        href="https://www.centralfoodmalaga.com/sabor-casita"
+        className="menu-list"
+      >
         <h3>Con Sabor a Casita</h3>
         <StaticImage
           src="../../images/logo-sabor.jpg"
@@ -35,11 +40,9 @@ const MenuList = () => {
           layout="constrained"
           width={300}
         />
-      </AniLink>
-      <AniLink
-        paintDrip
-        hex="#b2b2b2"
-        to="/hamburgueseriavzla"
+      </a>
+      <a
+        href="https://www.centralfoodmalaga.com/hamburgueseria-venezuela"
         className="menu-list"
       >
         <h3>Hamburguesería VZLA</h3>
@@ -50,15 +53,13 @@ const MenuList = () => {
           layout="constrained"
           width={300}
         />
-      </AniLink>
-      <AniLink
-        paintDrip
-        hex="#b2b2b2"
-        to="/postres-bebidas"
+      </a>
+      <a
+        href="https://www.centralfoodmalaga.com/postres-bebidas"
         className="menu-list menu-list-center"
       >
         <h3>Postres y Bebidas</h3>
-      </AniLink>
+      </a>
     </>
   )
 }
